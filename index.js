@@ -30,7 +30,7 @@ class NativeSticky extends React.Component {
 
 		return (
 			<Root className={NATIVE_STICKY_CLASSNAME}>
-				<style>{NATIVE_STICKY_DEFINITION}</style>
+				<style scoped>{NATIVE_STICKY_DEFINITION}</style>
 				{this.props.children}
 			</Root>
 		);
