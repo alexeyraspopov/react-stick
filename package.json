@@ -5,8 +5,7 @@
   "main": "bundle.js",
   "scripts": {
     "build": "babel index.js > bundle.js",
-    "prepublish": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "npm run build"
   },
   "author": "Alexey Raspopov",
   "repository": "alexeyraspopov/react-stick",
