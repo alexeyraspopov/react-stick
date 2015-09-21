@@ -6,7 +6,6 @@ const NATIVE_STICKY_CLASSNAME = "react-native-sticky-element-styles";
 const NATIVE_STICKY_DEFINITION = `
 	.${NATIVE_STICKY_CLASSNAME} {
 		position: -webkit-sticky;
-		position: -moz-sticky;
 		position: sticky;
 	}
 `;
