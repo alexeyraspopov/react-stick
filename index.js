@@ -11,6 +11,7 @@ const NATIVE_STICKY_DEFINITION = `
 	}
 `;
 
+// TODO: possibly use only one component with condition like `notSupported ? renderDuplicateElement : null`
 class NativeSticky extends React.Component {
 	getDefaultProps() {
 		return {
@@ -27,6 +28,7 @@ class NativeSticky extends React.Component {
 		 *   <Boo /> => React.createElement(Boo, ...)
 		 */
 		var Root = this.props.type;
+		// TODO: warn about native support?
 
 		return (
 			<Root className={NATIVE_STICKY_CLASSNAME}>
