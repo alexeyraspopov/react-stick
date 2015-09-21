@@ -1,0 +1,20 @@
+{
+  "name": "react-stick",
+  "version": "0.0.1",
+  "description": "Sticky component for React that will use CSS property if it's available.",
+  "main": "bundle.js",
+  "scripts": {
+    "build": "babel index.js > bundle.js",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexey Raspopov",
+  "repository": "alexeyraspopov/react-stick",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "babel": "~5.8.23"
+  }
+}
