@@ -1,6 +1,6 @@
 # react-stick
 
-Sticky component for React that will use CSS property if it's available.
+Sticky component for React that will use CSS property if it's available. See current `position: sticky` support status on [caniuse.com](http://caniuse.com/#search=sticky).
 
 ## Install
 
